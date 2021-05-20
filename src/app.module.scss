@@ -1,0 +1,39 @@
+
+
+.cardData {
+  position: static;
+  width: 343px;
+  height: 168px;
+  left: 16px;
+  top: 496px;
+
+  /* primary/5 */
+
+  background: #FFF3EC;
+  /* primary/0 */
+
+  border: 1px solid #FF843E;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.scrolling_wrapper_flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+
+  .card {
+    flex: 0 0 auto;
+  }
+}
+
+.menuDivider {
+  border-bottom: 2px #DBDDDF solid;
+}
